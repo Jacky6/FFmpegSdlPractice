@@ -1,0 +1,3 @@
+D:/projects/ffmpeg_sdl_practice/av_to_file/build/CMakeFiles/main.dir
+D:/projects/ffmpeg_sdl_practice/av_to_file/build/CMakeFiles/ALL_BUILD.dir
+D:/projects/ffmpeg_sdl_practice/av_to_file/build/CMakeFiles/ZERO_CHECK.dir
