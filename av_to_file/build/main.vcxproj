@@ -119,7 +119,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -163,7 +163,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -207,7 +207,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -250,7 +250,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/Libffmpeg/lib/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86;D:/projects/ffmpeg_sdl_practice/av_to_file/SDL2/lib/x86/$(Configuration);D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib;D:/projects/ffmpeg_sdl_practice/av_to_file/debug/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
