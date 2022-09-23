@@ -1,1 +1,0 @@
-D:/software/visualstudio/2022/MSBuild/Microsoft/VC/v170
