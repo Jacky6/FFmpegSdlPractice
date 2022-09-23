@@ -1,2 +1,5 @@
 .vs
 build/
+debug/bin/*.exe
+debug/bin/*.pdb
+debug/bin/*.mp4
