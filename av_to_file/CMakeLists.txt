@@ -34,5 +34,7 @@ add_executable(main main.cpp)
 target_link_libraries(main avcodec avdevice avfilter avformat avutil postproc swresample swscale SDL2 SDL2main)
   
 set_property(TARGET main PROPERTY VS_DEBUGGER_WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE})
+# 设置为默认启动项目
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT main)
 
 # TODO: 如有需要，请添加测试并安装目标。
