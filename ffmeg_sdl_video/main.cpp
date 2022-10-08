@@ -105,7 +105,6 @@ int main()
 	AVCodec* pCodec;
 
 	pFormatCtx = avformat_alloc_context();
-	const char* filename = "11.mp4";
 	avdevice_register_all();
 	//Windows
 

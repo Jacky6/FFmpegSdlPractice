@@ -6,6 +6,16 @@ ffmpeg——SDL 学习项目记录
 4、在build文件夹中打开VS项目*.sln文件
 
 
+### 项目名称：ffmpeg_sdl_audio
+##### 项目介绍
+ffmpeg 采集麦克风 并通过 sdl 进行播放
+包含模块：
++ 输出设备信息
++ 麦克风设备采集
++ 解码
++ SDL 音频播放
+
+
 ### 项目名称：ffmpeg_sdl_video
 ##### 项目介绍
 ffmpeg 采集摄像头 并通过 sdl 进行播放
