@@ -1,4 +1,6 @@
 ffmpeg——SDL 学习项目记录
+注意：所采用的ffmpeg sdl均为32位
+
 ### 食用方法
 1、进入项目文件夹（例如av_to_file）
 2、然后根据自己vs版本修改build.bat

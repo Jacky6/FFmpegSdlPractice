@@ -1,5 +1,5 @@
 **/.vs
 **/build/
-**/debug/bin/*.exe
-**/debug/bin/*.pdb
-**/debug/bin/*.mp4
+/bin/*.exe
+/bin/*.pdb
+/bin/*.mp4
