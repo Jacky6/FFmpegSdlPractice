@@ -104,7 +104,6 @@ int main()
 	int audioindex;
 	AVCodecContext* pCodecCtx;
 	AVCodec* pCodec;
-
 	avdevice_register_all();
 	//Windows
 	//Show Dshow Device

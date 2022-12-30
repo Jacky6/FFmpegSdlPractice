@@ -19,9 +19,6 @@ extern "C"
 #pragma comment(lib, "avutil.lib")
 #pragma comment(lib, "avdevice.lib")
 #pragma comment(lib, "avfilter.lib")
-
-	//#pragma comment(lib, "avfilter.lib")
-	//#pragma comment(lib, "postproc.lib")
 #pragma comment(lib, "swresample.lib")
 #pragma comment(lib, "swscale.lib")
 #ifdef __cplusplus
@@ -131,7 +128,7 @@ int OpenVideoCapture()
 	//Video frame size. The default is to capture the full screen
 	
 	/* 可以自行查找摄像头设备名称 */
-	if (avformat_open_input(&pFormatCtx_Video, "video=Integrated Camera", ifmt, &options) != 0)
+	if (avformat_open_input(&pFormatCtx_Video, "video=HD Camera", ifmt, &options) != 0)
 	{
 		std::cout << "Couldn't open input stream.（无法打开视频输入流）\n";
 		return -1;
@@ -187,7 +184,7 @@ int OpenAudioCapture()
 	//查找输入方式
 	AVInputFormat* imf = av_find_input_format("dshow");
 	//以Direct Show的方式打开设备，并将 输入方式 关联到格式上下文
-	const char* psDevName = u8"audio=麦克风 (2- Realtek(R) Audio)";//dup_wchar_to_utf8(L"audio=麦克风(2 - Realtek(R) Audio)");
+	const char* psDevName = u8"audio=麦克风 (Realtek(R) Audio)";//dup_wchar_to_utf8(L"audio=麦克风(2 - Realtek(R) Audio)");
 	AVDictionary* options = NULL;
 	//av_dict_set(&options, "framerate", "30", NULL);
 	if (avformat_open_input(&pFormatCtx_Audio, psDevName, imf, &options) < 0)
@@ -299,7 +296,7 @@ int OpenOutPut()
 			exit(1);
 		}
 
-		//pCodecEncodeCtx_Audio->codec_id = pFormatCtx_Out->oformat->audio_codec;
+		pCodecEncodeCtx_Audio->codec_id = pFormatCtx_Out->oformat->audio_codec;
 		pCodecEncodeCtx_Audio->sample_fmt = pCodecEncode_Audio->sample_fmts ? pCodecEncode_Audio->sample_fmts[0] : AV_SAMPLE_FMT_FLTP;
 		pCodecEncodeCtx_Audio->bit_rate = 64000;
 		pCodecEncodeCtx_Audio->sample_rate = pReadCodecContext_Audio->sample_rate;
@@ -353,6 +350,7 @@ int OpenOutPut()
 		return -1;
 	}
 
+	av_dump_format(pFormatCtx_Out, 0, outFileName, 1);
 	return 0;
 }
 
